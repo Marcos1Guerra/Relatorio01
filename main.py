@@ -33,11 +33,11 @@ aux_tamanho = input("Entre com o tamanho do elefante: ")
 elefante1 = Elefante(aux_nome, aux_idade, aux_especie, aux_cor, aux_som, aux_tamanho)
 
 if elefante1.especie == "Africano":
-    if elefante1.idade < 10:
+    if elefante1.idade < '10':
         elefante1.mudar_tamanho("pequeno")
         elefante1.som = "Paaah"
 
-    elif elefante1.idade > 10:
+    elif elefante1.idade > '10':
         elefante1.mudar_tamanho("grande")
         elefante1.som = "PAHHHHHH"
 
